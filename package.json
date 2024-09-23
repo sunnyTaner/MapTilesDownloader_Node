@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express-formidable": "^1.2.0",
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
