@@ -49,6 +49,7 @@ $(function () {
     "MapBox矢量(替换key修改输出路径中的后缀名)":
       "https://api.mapbox.com/v4/mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2,mapbox.mapbox-streets-v8/{z}/{x}/{y}.vector.pbf?sku=101Asds1IWRgC&access_token=" + mapBoxToken,
     "MapBox卫星 ": "https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.webp?sku=101Asds1IWRgC&access_token=" + mapBoxToken,
+    "MapBox地形 ": "https://api.mapbox.com/raster/v1/mapbox.mapbox-terrain-dem-v1/{z}/{x}/{y}.webp?sku=101RiVbnTavXt&access_token=" + mapBoxToken,
   };
 
   function initializeMap() {
